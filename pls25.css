@@ -1,0 +1,306 @@
+/* ============================================================
+   PRÉ-LIENS THÉMATIQUES — CSS COMPLET
+   ============================================================ */
+
+.pl-post {
+    border: 0.5px solid var(--neutralDarker4);
+    background: var(--neutralDarker2);
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pl-post-head {
+    background: var(--neutralDarker2);
+    border-bottom: 1px solid var(--neutralDarker4);
+    padding: 6px 14px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--contrast);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+}
+
+.pl-post-body {
+    padding: 18px 20px;
+}
+
+.pl-section-tag {
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 14px;
+    color: var(--contrast);
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* ── RÉCAP ── */
+
+.pl-recap-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: var(--textColorAccent);
+    margin: 0 0 4px 0;
+}
+
+.pl-recap-sub {
+    text-align: center;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--contrast);
+    margin-bottom: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-recap-intro {
+    font-size: 12px;
+    line-height: 1.75;
+    color: var(--textColor);
+    margin-bottom: 16px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pl-recap-sep {
+    border-top: 1px solid var(--neutralDarker4);
+    margin: 14px 0;
+    height: 0;
+}
+
+.pl-recap-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--contrast);
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-recap-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.pl-recap-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--neutralDarker4);
+}
+
+.pl-recap-row:last-child {
+    border-bottom: none;
+}
+
+.pl-recap-row.pl-dim {
+    opacity: 0.4;
+}
+
+.pl-recap-num {
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--accentClrDark);
+    min-width: 22px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-recap-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: var(--textColorAccent);
+    flex: 1;
+}
+
+.pl-recap-meta {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--contrast);
+    white-space: nowrap;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* ── MOODBOARD ── */
+
+.pl-mood-layout {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.pl-photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    width: 198px;
+    flex-shrink: 0;
+}
+
+.pl-photo-cell {
+    height: 94px;
+    overflow: hidden;
+    background: var(--neutralDarker3);
+}
+
+.pl-photo-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pl-mood-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pl-lieu {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--textColorAccent);
+    margin: 0;
+}
+
+.pl-lieu-sub {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--contrast);
+    margin-top: 2px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-desc {
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--textColor);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pl-kw-row {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+
+.pl-kw {
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2px 7px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-kw.bay {
+    border: 1px solid var(--accentClrDarker6);
+    color: var(--accentClrDarker6);
+}
+
+.pl-kw.studio {
+    border: 1px solid var(--accentClrDarker);
+    color: var(--accentClrDarker);
+}
+
+/* ── RÔLES ── */
+
+.pl-roles-sep {
+    border-top: 1px solid var(--neutralDarker4);
+    margin: 14px 0 12px;
+    height: 0;
+}
+
+.pl-roles-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--contrast);
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-roles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.pl-role-card {
+    border: 1px solid var(--neutralDarker4);
+    padding: 8px 10px;
+    background: var(--neutral);
+    box-sizing: border-box;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pl-role-card.pl-dim {
+    opacity: 0.45;
+    border-style: dashed;
+}
+
+.pl-role-t {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--textColorAccent);
+}
+
+.pl-role-d {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--contrast);
+    margin-top: 2px;
+    line-height: 1.4;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-role-s {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.pl-rs-bay  { color: var(--accentClrDarker6); }
+.pl-rs-st   { color: var(--accentClrDarker); }
+.pl-rs-off  { color: var(--contrast); }
+
+.pl-role-member {
+    margin-top: 6px;
+    padding-top: 5px;
+    border-top: 1px solid var(--neutralDarker4);
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--accentClrDark);
+    flex: 1;
+    overflow-y: auto;
+}
+
+.pl-role-member::-webkit-scrollbar {
+    display: none;
+}
