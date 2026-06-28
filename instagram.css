@@ -228,6 +228,26 @@
 .ig-car-carre input:nth-of-type(9):checked ~ .ig-car-slides  { -webkit-transform: translateX(-800%);  transform: translateX(-800%); }
 .ig-car-portrait input:nth-of-type(10):checked ~ .ig-car-slides,
 .ig-car-carre input:nth-of-type(10):checked ~ .ig-car-slides { -webkit-transform: translateX(-900%);  transform: translateX(-900%); }
+.ig-car-portrait input:nth-of-type(11):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(11):checked ~ .ig-car-slides { -webkit-transform: translateX(-1000%); transform: translateX(-1000%); }
+.ig-car-portrait input:nth-of-type(12):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(12):checked ~ .ig-car-slides { -webkit-transform: translateX(-1100%); transform: translateX(-1100%); }
+.ig-car-portrait input:nth-of-type(13):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(13):checked ~ .ig-car-slides { -webkit-transform: translateX(-1200%); transform: translateX(-1200%); }
+.ig-car-portrait input:nth-of-type(14):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(14):checked ~ .ig-car-slides { -webkit-transform: translateX(-1300%); transform: translateX(-1300%); }
+.ig-car-portrait input:nth-of-type(15):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(15):checked ~ .ig-car-slides { -webkit-transform: translateX(-1400%); transform: translateX(-1400%); }
+.ig-car-portrait input:nth-of-type(16):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(16):checked ~ .ig-car-slides { -webkit-transform: translateX(-1500%); transform: translateX(-1500%); }
+.ig-car-portrait input:nth-of-type(17):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(17):checked ~ .ig-car-slides { -webkit-transform: translateX(-1600%); transform: translateX(-1600%); }
+.ig-car-portrait input:nth-of-type(18):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(18):checked ~ .ig-car-slides { -webkit-transform: translateX(-1700%); transform: translateX(-1700%); }
+.ig-car-portrait input:nth-of-type(19):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(19):checked ~ .ig-car-slides { -webkit-transform: translateX(-1800%); transform: translateX(-1800%); }
+.ig-car-portrait input:nth-of-type(20):checked ~ .ig-car-slides,
+.ig-car-carre input:nth-of-type(20):checked ~ .ig-car-slides { -webkit-transform: translateX(-1900%); transform: translateX(-1900%); }
 
 /* Flèches */
 .ig-car-nav {
@@ -272,10 +292,28 @@
 .ig-car-portrait input:nth-of-type(9):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(9),
 .ig-car-carre input:nth-of-type(9):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(9),
 .ig-car-portrait input:nth-of-type(10):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(10),
-.ig-car-carre input:nth-of-type(10):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(10) {
-  background: rgba(255,255,255,1); -webkit-transform: scale(1.2); transform: scale(1.2);
-}
-
+.ig-car-carre input:nth-of-type(10):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(10),
+.ig-car-portrait input:nth-of-type(11):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(11),
+.ig-car-carre input:nth-of-type(11):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(11),
+.ig-car-portrait input:nth-of-type(12):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(12),
+.ig-car-carre input:nth-of-type(12):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(12),
+.ig-car-portrait input:nth-of-type(13):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(13),
+.ig-car-carre input:nth-of-type(13):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(13),
+.ig-car-portrait input:nth-of-type(14):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(14),
+.ig-car-carre input:nth-of-type(14):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(14),
+.ig-car-portrait input:nth-of-type(15):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(15),
+.ig-car-carre input:nth-of-type(15):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(15),
+.ig-car-portrait input:nth-of-type(16):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(16),
+.ig-car-carre input:nth-of-type(16):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(16),
+.ig-car-portrait input:nth-of-type(17):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(17),
+.ig-car-carre input:nth-of-type(17):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(17),
+.ig-car-portrait input:nth-of-type(18):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(18),
+.ig-car-carre input:nth-of-type(18):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(18),
+.ig-car-portrait input:nth-of-type(19):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(19),
+.ig-car-carre input:nth-of-type(19):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(19),
+.ig-car-portrait input:nth-of-type(20):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(20),
+.ig-car-carre input:nth-of-type(20):checked ~ .ig-car-indicators .ig-car-dot:nth-of-type(20) 
+{ background: rgba(255,255,255,1); -webkit-transform: scale(1.2); transform: scale(1.2); }
 
 /* ============================================
    INSTAGRAM — STORY CAROUSEL
