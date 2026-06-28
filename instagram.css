@@ -2,6 +2,11 @@
    INSTAGRAM — PROFIL
    nvprofil15.css — compatible ForumActif
    Utilise les variables CSS du forum pour dark/light
+
+   IMPORTANT : chaque profil utilise un suffixe unique
+   dans les ids/names des inputs radio pour éviter les
+   conflits quand plusieurs profils sont postés dans
+   le même sujet. Ex : ig-tab-posts-nicola
    ============================================ */
 
 .ig-prof {
@@ -114,10 +119,23 @@
 .ig-tab-lbl i { font-size: 22px; vertical-align: middle; }
 
 .ig-pane { display: none; }
-#ig-tab-posts:checked ~ .ig-prof .ig-pane-posts { display: block; }
-#ig-tab-posts:checked ~ .ig-prof #ig-lbl-posts { color: var(--textColorAccent); border-top-color: var(--textColorAccent); }
-#ig-tab-tagged:checked ~ .ig-prof .ig-pane-tagged { display: block; }
-#ig-tab-tagged:checked ~ .ig-prof #ig-lbl-tagged { color: var(--textColorAccent); border-top-color: var(--textColorAccent); }
+
+/* ── ONGLETS : sélecteurs génériques par attribut ── */
+/* Fonctionne pour tout suffixe : -nicola, -leni, -paloma, etc. */
+
+/* Publications actif */
+input[id^="ig-tab-posts"]:checked ~ .ig-prof .ig-pane-posts { display: block; }
+input[id^="ig-tab-posts"]:checked ~ .ig-prof label[for^="ig-tab-posts"] {
+  color: var(--textColorAccent);
+  border-top-color: var(--textColorAccent);
+}
+
+/* Taguées actif */
+input[id^="ig-tab-tagged"]:checked ~ .ig-prof .ig-pane-tagged { display: block; }
+input[id^="ig-tab-tagged"]:checked ~ .ig-prof label[for^="ig-tab-tagged"] {
+  color: var(--textColorAccent);
+  border-top-color: var(--textColorAccent);
+}
 
 /* ── GRILLE PHOTOS ── */
 .ig-grid { width: 100%; border-collapse: collapse; }
