@@ -696,16 +696,16 @@
 }
 
 .fmrWrap {
-  width: 200px;
+  width: 202px;
   float: right;
   margin: 0 0 10px 14px;
-  background-color: var(--neutralDarker3);
   border: 1px solid var(--neutralDarker4);
+  background: none !important;
 }
 
 .fmrNom {
   text-align: center;
-  padding: 10px 8px 8px;
+  padding: 5px 8px 8px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 700;
