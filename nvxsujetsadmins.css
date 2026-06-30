@@ -689,6 +689,12 @@
 }
 
 /* ======= FMR ======= */
+
+.fmrPost {
+  display: flow-root;
+  max-width: 500px;
+}
+
 .fmrWrap {
   width: 200px;
   float: right;
@@ -708,10 +714,10 @@
 }
 
 .fmrImg {
-  width: 100%;
+  width: 200px;
+  height: 320px;
   display: block;
   object-fit: cover;
-  aspect-ratio: 3 / 4;
 }
 
 .fmrInfos {
