@@ -701,6 +701,8 @@
   margin: 0 0 10px 14px;
   border: 1px solid var(--neutralDarker4);
   background: none !important;
+  max-height: 600px;
+  overflow-y: auto;
 }
 
 .fmrNom {
