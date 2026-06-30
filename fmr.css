@@ -1,0 +1,45 @@
+.fmrPost {
+  display: flow-root;
+  max-width: 500px;
+}
+
+.fmrWrap {
+  width: 200px;
+  float: right;
+  margin: 0 0 10px 14px;
+  background-color: var(--neutralDarker3);
+  border: 1px solid var(--neutralDarker4);
+}
+
+.fmrNom {
+  text-align: center;
+  padding: 10px 8px 8px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--accentClr);
+}
+
+.fmrImg {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
+.fmrInfos {
+  padding: 10px 10px 12px;
+  font-size: 11px;
+  line-height: 1.75;
+  color: var(--textColor);
+  text-align: justify;
+}
+
+.fmrInfos tt {
+  color: var(--accentClrDarker);
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
