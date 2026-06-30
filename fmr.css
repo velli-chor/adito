@@ -4,10 +4,11 @@
 }
 
 .fmrWrap {
-  width: 200px;
+  width: 202px;
   float: right;
   margin: 0 0 10px 14px;
   border: 1px solid var(--neutralDarker4);
+  background: none !important;
 }
 
 .fmrNom {
