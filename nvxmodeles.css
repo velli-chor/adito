@@ -737,3 +737,12 @@
   letter-spacing: 0.5px;
   font-style: normal;
 }
+
+/* CACHER PROFIL MAYOR */
+
+html.no-profile .post_profile { display: none !important; }
+html.no-profile .post_row.show-profile .post_profile { display: block !important; }
+html.no-profile .post_row.show-profile { grid-template-columns: auto 1fr !important; }
+html.no-profile .noProfile { grid-template-columns: 1fr !important; }
+html.no-profile .noProfile .postcontenu { max-width: 100% !important; }
+html.no-profile .noProfile .post_message { width: 100% !important; }
