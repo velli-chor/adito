@@ -165,7 +165,7 @@
 .ig-post-more { font-size: 20px; color: var(--textColor); cursor: pointer; }
 
 .ig-post-img-portrait {
-  width: 400px; height: 500px;
+  width: 400px; height: 530px;
   background-size: cover; background-position: center;
   background-color: var(--neutralDarker2); display: block;
 }
@@ -188,7 +188,7 @@
 
 /* ── CAROUSEL ── */
 .ig-car-portrait {
-  position: relative; width: 400px; height: 500px;
+  position: relative; width: 400px; height: 530px;
   overflow: hidden; background: #000; margin: 0 auto;
 }
 .ig-car-carre {
