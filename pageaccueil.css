@@ -30,7 +30,7 @@
 .npa-partners-friend a { color: var(--accentClrDarker3) !important; }
 .npa-partners select { width: 100%; font-size: 9px; text-transform: uppercase; background: var(--neutral); color: var(--textColor); border: 1px solid var(--neutralDarker4); padding: 3px; margin-bottom: 5px; }
 .npa-vote-icons { display: flex; justify-content: center; gap: 6px; }
-.lien-site { background: var(--degrade2) !important; }
+.lien-site { background: var(--degrade) !important; }
 
 /* COLONNE CENTRALE */
 .npa-center { display: flex; flex-direction: column; gap: 8px; text-align: center; }
