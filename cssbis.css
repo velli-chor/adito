@@ -73,7 +73,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 260px;
+    flex: 0 1 auto;
+    min-width: 0;  
     display: inline-block;
     vertical-align: baseline;
     font-weight: 400;
@@ -93,6 +94,7 @@ a.topictitle { color: #868c8c; }
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 120px;
+    flex-shrink: 0;
 }
 
 .topic-type {
